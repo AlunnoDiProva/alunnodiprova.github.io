@@ -6,3 +6,24 @@ h1 {
     color: navy;
     margin-left: 20px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline wavy #3113;
+  }
+  
+li:hover a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline wavy blue;
+}
